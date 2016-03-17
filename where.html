@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cut | Film Festival</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	</head>
+	<body>
+		
+
+		<div id="navigation">
+			<nav id="close">
+				<div class="inner">
+					<img src="images/bars.svg" id="hamburger" alt="Hamburger Menu">
+					<img src="images/exit.svg" id="cross" alt="Exit Menu">
+				</div>
+			</nav>
+			<div id="menu">
+				<ul>
+					<li><a href="index.html#banner">HOME</a></li>
+					<li><a href="index.html#section-one">ABOUT</a></li>
+					<li><a href="index.html#placeholder">FILMS</a></li>
+					<li><a href="where.html">WHERE</a></li>
+				</ul>
+			</div>
+		</div>
+				
+
+		<section id="section-one-where">
+			<img src="images/wellington.svg" class="portrait" alt="Wellington">
+			<div class="inner">
+				<h2>WHERE</h2>
+				<p>Exclusive to the Coolest Little Capital in the World, Wellington. 
+				<br><br>
+				Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur.</p>
+			</div>
+		</section>
+
+
+
+		<section id="section-two-where">
+			<div class="inner">
+				<p>Check out available screening times at selected cinemas:</p>
+				<br>
+				<ul>
+					<li><a href="https://www.eventcinemas.co.nz/Cinema/The-Embassy" target="_blank">- Embassy Theatre</a></li>
+					<li><a href="http://readingcinemas.co.nz/locations/theatre/courtenay" target="_blank">- Reading Cinemas</a></li>
+					<li><a href="http://www.lighthousecuba.co.nz/" target="_blank">- Light House Cuba</a></li>
+					<li><a href="http://www.roxycinema.co.nz/" target="_blank">- The Roxy Cinema</a></li>
+					<li><a href="http://www.penthousecinema.co.nz/" target="_blank">- Penthouse Cinema</a></li>
+				</ul>
+			</div>
+		</section>
+
+
+		<section id="section-three-where">
+			<div id="map-container"></div>
+		</section>
+
+		<section id="section-four-where">
+			<div id="form_before" class="inner">
+				<h2>NEWSLETTER</h2>
+				<form id="contact-form" method="POST" action="javascript:success()">
+					<div id="name-input">
+						<label for="name" hidden>Name*</label>
+						<input type="text" id="name" placeholder="Name" required>
+					</div>
+					<br class="hidden">
+					<div id="email-input">
+						<label for="email" hidden>Email*</label>
+						<input type="email" id="email" placeholder="Email" required>
+					</div>
+					<br><br>
+					<div>
+						<input id="submit" type="submit" value="SEND">
+					</div>
+				</form>
+			</div>
+			<div id="form_after" class="inner">
+				<h2>CHEERS</h2>
+				<p>You are now subscribed to our Newsletter.</p>
+			</div>
+		</section>
+
+		<section id="placeholder-where"></section>
+		
+
+		<section id="section-four">
+			<a href="index.html#placeholder"><div class="inner">
+				<h2>FILMS</h2>
+				<img src="images/film.svg" alt="to film section">
+				<hr>
+			</div></a>
+		</section>
+
+
+		<footer>
+			<a href="#section-one-where" class="more"><img src="images/arrow_up.svg" alt="Back to the top"></a>
+			<div class="inner">
+				<div class="column-s">
+					<h3>+ CONTACT</h3>
+					<ul>
+						<li>info@cutfilms.co.nz</li>
+						<li>+64 4 385 0162</li>
+					</ul>
+				</div>
+				<br class="break"><hr><br>
+				<div class="column-s">
+					<h3>+ RESOURCE</h3>
+					<ul>
+						<li>FAQ</li>
+						<li>Privacy Policy</li>
+						<li>Archive</li>
+					</ul>
+				</div>
+				<div class="column-l">
+					<h2>+ CONTACT</h2>
+					<ul>
+						<li>info@cutfilms.co.nz</li>
+						<li>+64 4 385 0162</li>
+					</ul>
+				</div>
+				<div class="column-l">
+					<h2>+ RESOURCE</h2>
+					<ul>
+						<li>FAQ</li>
+						<li>Privacy Policy</li>
+						<li>Archive</li>
+					</ul>
+				</div>
+				<br><hr class="rule"><br>
+				<div class="column">
+					<img src="images/sponsor1.svg" alt="Sponsor">
+					<img src="images/sponsor2.svg" alt="Sponsor">
+					<img src="images/sponsor3.svg" alt="Sponsor">
+					
+				</div>
+				<br><br>
+				<div id="copyright">
+                	<p>&copy; 2015 Cut Film Festival
+                		<br>
+                	Site Devlopment by Cole Holyoake</p>
+            	</div>
+			</div>
+		</footer>
+
+
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?callback=initMap&libraries=geometry"></script>
+
+
+	</body>
+</html>
